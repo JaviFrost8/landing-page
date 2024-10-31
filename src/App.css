@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+.container-navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 15px 0;
+    background-color: #333;
+    color: #ccc;
+}
+
+.logo{
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.navbar li a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+.principal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    color: #333;
+    height: 800px;
+}
+
+.titulos-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.titulo{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.gratis{
+    font-weight: bold;
+    color: yellow;
+}
+
+.subtitulo{
+    font-size: 30px;
+}
+
+.imagen {
+    margin-left: 100px;
+}
+
+.imagen img{
+    width: 450px;
+    border-radius: 10px;
+}
+
+.input-container{
+    margin: 50px 0;
+}
+
+input[type='email']{
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 600px;
+}
+
+input[type='email']:focus{
+    outline: none;
+}
+
+input[type='submit']{
+    font-size: 20px;
+    color: #ccc;
+    background-color: #333;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
