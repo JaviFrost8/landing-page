@@ -6,7 +6,7 @@
 }
 
 .container-navbar{
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content:space-around;
     padding: 15px 0;
@@ -16,7 +16,7 @@
 
 .logo{
     letter-spacing: 3px;
-    font-size: 25px;
+    font-size: 30px;
     color: #ccc;
     padding: 10px;
     cursor: pointer;
@@ -36,6 +36,7 @@
 .navbar li a{
     color: #ccc;
     text-decoration: none;
+    font-size: 30px;
 }
 
 .principal-container{
@@ -44,7 +45,10 @@
     justify-content: center;
     background-color: #ccc;
     color: #333;
-    height: 800px;
+    height: 830px;
+    background-image: url('../src/assets/wallpaper1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .titulos-container{
@@ -59,13 +63,15 @@
     margin-bottom: 30px;
 }
 
-.gratis{
+.resaltado{
     font-weight: bold;
     color: yellow;
+    text-shadow: 1px 1px 3px black;
 }
 
 .subtitulo{
     font-size: 30px;
+    line-height: 50px;
 }
 
 .imagen {
@@ -81,7 +87,7 @@
     margin: 50px 0;
 }
 
-input[type='email']{
+.input-container input[type='email']{
     border: none;
     padding: 12px;
     border-radius: 50px;
@@ -93,16 +99,196 @@ input[type='email']:focus{
     outline: none;
 }
 
-input[type='submit']{
+.input-container input[type='submit']{
     font-size: 20px;
     color: #ccc;
     background-color: #333;
-    margin-left: 15px;
+    margin-left: 30px;
     cursor: pointer;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
 }
+
+input[type='submit']{
+    font-size: 20px;
+    color: #ccc;
+    background-color: #333;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.beneficios-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e6e6;
+    width: 100%;
+    height: 300px;
+}
+
+.beneficio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.beneficio i{
+    font-size: 60px;
+    margin-right: 15px;
+}
+
+.beneficio span{
+    font-size: 20px;
+}
+
+.container-testimonios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ccc;
+    background: linear-gradient(#e7e6e6 0%, #7a7a7a 100%);
+}
+
+.container-persona{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 300px;
+    border: 2px solid white;
+    margin: 40px 25px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+}
+
+.container-persona img{
+    width: 320px;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.container-persona h2{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.container-testimonios .persona1{
+    display: flex;
+    margin-left: 250px;
+    width: 650px;
+    transition: all 300ms;
+}
+
+.container-testimonios .persona2{
+    display: flex;
+    margin-left: 950px;
+    transition: all 300ms;
+}
+
+.container-testimonios .persona3{
+    display: flex;
+    margin-left: 250px;
+    width: 650px;
+    transition: all 300ms;
+}
+
+.containerForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #7a7a7a;
+    padding: 150px 0;
+}
+
+.formContainer{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, #ccc 0%, #797979 100%);
+    width: 800px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form label{
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.ul{
+    width: 100%;
+    list-style-type: none;
+}
+
+.liOne{
+    display: flex;
+    padding: 15px 25px;
+    gap: 20px;
+}
+
+.li{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 15px 25px;
+}
+
+.nameSurname{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+input[type='text'],
+input[type='email']{
+    margin-top: 7px;
+    padding: 10px;
+    border: none;
+}
+
+input[type='text']:focus,
+input[type='email']:focus{
+    outline: none;
+}
+
+.textContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0;
+    margin-bottom: 70px;
+}
+
+.textContainer h1{
+    color: #eeeeee;
+    font-size: 50px;
+    margin: 10px 0;
+    text-shadow: 1px 1px 3px black;
+}
+
+
 
 
 

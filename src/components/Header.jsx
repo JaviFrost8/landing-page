@@ -8,9 +8,9 @@ const Header = () => {
             <div className='logo'>Coding</div>
             <nav>
                 <ul className='navbar'>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Quienes somos</a></li>
-                    <li><a href='#'>Contáctanos</a></li>
+                    <li><a href='#'><i className="fa-brands fa-facebook"></i></a></li>
+                    <li><a href='#'><i className="fa-brands fa-instagram"></i></a></li>
+                    <li><a href='#'><i className="fa-brands fa-twitter"></i></a></li>
                 </ul>
             </nav>
         </div>
