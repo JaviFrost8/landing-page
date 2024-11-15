@@ -4,6 +4,8 @@ import Principal from '../Principal'
 import Beneficios from '../Beneficios'
 import Testimonios from '../Testimonios'
 import { Formulario } from '../Formulario'
+import { Lenguajes } from '../Lenguajes'
+import { Footer } from '../Footer'
 
 export const PrincipalPage = () => {
   return (
@@ -13,6 +15,8 @@ export const PrincipalPage = () => {
         <Beneficios />
         <Testimonios />
         <Formulario />
+        <Lenguajes />
+        <Footer />
     </div>
   )
 }

@@ -3,6 +3,7 @@ import foto1 from '../assets/personas/persona1.webp';
 import foto2 from '../assets/personas/persona2.webp';
 import foto3 from '../assets/personas/persona3.webp';
 import Persona from './Persona';
+import aproved from '../assets/aproved.png'
 
 const Testimonios = () => {
 
@@ -14,13 +15,17 @@ const Testimonios = () => {
     <div className='container-testimonios'>
         <div className='persona1'>
            <Persona foto={foto1} nombre={'María Rodríguez'} testimonio={testimonio1} /> 
+           <img src={aproved} alt='aproved' className='aproved' />
         </div>
         <div className='persona2'>
            <Persona foto={foto2} nombre={'Paula González'} testimonio={testimonio2} />  
+           <img src={aproved} alt='aproved' className='aproved' />
         </div>
         <div className='persona3'>
            <Persona foto={foto3} nombre={'Raúl Echeverria'} testimonio={testimonio3} /> 
+           <img src={aproved} alt='aproved' className='aproved' />
         </div>
+        
     </div>
   )
 }

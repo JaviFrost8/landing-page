@@ -39,6 +39,33 @@
     font-size: 30px;
 }
 
+.navbar li a .fa-facebook{
+    transition: all 300ms;
+}
+
+.navbar li a .fa-facebook:hover{
+    color: #3b5998;
+    transform: scale(1.2)
+}
+
+.navbar li a .fa-instagram{
+    transition: all 300ms;
+}
+
+.navbar li a .fa-instagram:hover{
+    color: #af4ca4;
+    transform: scale(1.2)
+}
+
+.navbar li a .fa-twitter{
+    transition: all 300ms;
+}
+
+.navbar li a .fa-twitter:hover{
+    color: #00caee;
+    transform: scale(1.2)
+}
+
 .principal-container{
     display: flex;
     align-items: center;
@@ -169,6 +196,7 @@ input[type='submit']{
 }
 
 .container-persona img{
+    min-height: 250px;
     width: 320px;
     border-radius: 50%;
     padding: 10px 20px;
@@ -180,10 +208,17 @@ input[type='submit']{
 }
 
 .container-testimonios .persona1{
+    position:relative;
     display: flex;
     margin-left: 250px;
     width: 650px;
     transition: all 300ms;
+}
+
+.container-testimonios .aproved{
+    position: absolute;
+    width: 250px;
+    transform: translateX(-50px) rotate(-15deg);
 }
 
 .container-testimonios .persona2{
@@ -205,7 +240,8 @@ input[type='submit']{
     justify-content: center;
     flex-direction: column;
     background-color: #7a7a7a;
-    padding: 150px 0;
+    padding: 40px 0 200px 0;
+    
 }
 
 .formContainer{
@@ -287,6 +323,149 @@ input[type='email']:focus{
     margin: 10px 0;
     text-shadow: 1px 1px 3px black;
 }
+
+.aproved{
+    width: 150px;
+    background-color: transparent;
+}
+
+.big-container-lenguajes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #c4c3c3;
+    width: 100%; 
+}
+
+.container-lenguaje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    padding: 100px 0;
+}
+
+.logosContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 0;
+    width: 80%;
+}
+
+.logosContainer img{
+    width: 130px;
+}
+
+.text-lenguajes{
+    font-size: 70px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    background-color: #7a7a7a;
+    padding: 100px 0;
+}
+
+.contact{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.contact-us{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.phone{
+    padding: 15px 0;
+}
+
+.phone i{
+    margin-right: 15px;
+    color: yellow;
+}
+
+.mail{
+    padding: 15px 0;
+}
+
+.mail i{
+    margin-right: 15px;
+    color: yellow;
+}
+
+.location{
+    padding: 15px 0;
+}
+
+.location i{
+    margin-right: 15px;
+    color: yellow;
+}
+
+.rrss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.rrss-text{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.rrss-logos{
+    padding: 20px 0;
+}
+
+.rrss-logos i{
+    font-size: 45px;
+    margin: 0 15px;
+    color: yellow;
+    padding: 20px;
+    text-shadow: 1px 1px 3px black;
+    transition: all 300ms;
+}
+
+.rrss-logos .fa-facebook:hover{
+    color: #3b5998;
+    transform: scale(1.2)
+}
+
+.rrss-logos .fa-instagram:hover{
+    color: #af4ca4;
+    transform: scale(1.2)
+}
+
+.rrss-logos .fa-twitter:hover{
+    color: #00caee;
+    transform: scale(1.2)
+}
+
+.reserved{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4c3c3;
+    padding: 15px 0;
+    font-weight: 400;
+    border-top: 2px solid gray
+}
+
+
 
 
 
