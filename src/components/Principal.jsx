@@ -5,6 +5,8 @@ const Principal = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    e.target.email.value = ''
+    alert('Gracias por suscribirte. Recibirás el primer email en unos minutos.')
   }
 
   return (
@@ -12,10 +14,10 @@ const Principal = () => {
         <div className='titulos-container'>
             <div className='titulo'>Aprende a programar <span className='resaltado'>{`{GRATIS}`}</span> <br></br>desde donde quieras.</div>
             <div className='subtitulo'>Suscríbete a nuestra newsletter y recibirás <br></br> todo lo necesario para convertirte en desarrollador web.</div>
-            <div className='input-container'>
-                <input type='email' placeholder='Introduce tu email' />
-                <input onSubmit={handleSubmit} type='submit' value='Enviar' />
-            </div>
+            <form className='input-container' onSubmit={handleSubmit}>
+                <input type='email' name='email' placeholder='Introduce tu email' />
+                <input type='submit' value='Enviar' />
+            </form>
         </div>
         <div className='imagen'>
             <img src={patito} alt='patito' />
